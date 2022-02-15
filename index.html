@@ -13,6 +13,7 @@
             overflow: hidden;
             font-weight: bold;
             font-size:14x;
+            margin-left: 25%;
         }
 
         th{
@@ -29,10 +30,21 @@
         tr:nth-child(even){
             background-color:lightslategray;
         }
+
+        h1{
+            margin-top: 15px;
+            margin-bottom: 10px;
+            
+            text-align: center;
+        }
+        #csvFileInput{
+            margin-left: 40%;
+        }
+        body{background-color: rgb(235, 181, 81);}
     </style>
 </head>
 <body>
-
+     <h1>Welcome to CSV to DataTable converter</h1>
     <input type="file" id="csvFileInput" style="padding-bottom: 15px">    
     <table id="csvRoot">
         
