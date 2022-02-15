@@ -18,17 +18,4 @@ csvFileInput.addEventListener('change',e =>{
    
 });
 
-// tableCsv.update([
-//     ["h", "p",1],
-//     ["h", "p",1],
-//     ["h", "p",1]
-// ],["Name","Position","Age"])
-
-// tableCsv.setHeader(["Name","Position","Age"])
-
-// tableCsv.setBody([
-//     ["h", "p",1],
-//     ["h", "p",1],
-//     ["h", "p",1]
-// ])
 
