@@ -1,8 +1,5 @@
 export default class {
-    /**
-     * 
-     * @param {HTMLTableElement} root The Element which will display the table data
-     */
+    
     constructor(root){
         this.root= root;
         console.log("I am constructor");
